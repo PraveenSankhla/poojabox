@@ -8,6 +8,8 @@
     <title>Gift, Home Decor, Pooja Samgri</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/bb5f22717f.js" crossorigin="anonymous"></script>
+    <script defer src="./script.js"></script>
+
 </head>
 
 <body>
@@ -26,8 +28,8 @@
                     alt="Poojaboxlogo">
             </div>
             <div class="logindivsearch">
-                <p><i id="searchtab" class="fa" onclick="displayDiv()">&#xf002;</i>Search</p>
-                <div class="search">
+                <p><i id="searchtab" class="fa" >&#xf002;</i>Search</p>
+                <div id="searchinput" class="search">
                     <input type="text" placeholder="What are you looking for ?">
                 </div>
                 <p><i class="fa">&#xf217;</i>Cart</p>
@@ -765,13 +767,6 @@
                 </div>
             </footer>
 
-
-    <script src="./script.js"></script>
-    <script>
-        function displayDiv() {
-            document.getElementById('searchtab').style.position = "relative"
-        }
-    </script>
 </body>
 
 </html>

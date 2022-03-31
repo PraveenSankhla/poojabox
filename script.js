@@ -4,3 +4,7 @@ setInterval(
       let ran = document.getElementById('discountmarque');
       ran.style.backgroundColor = "#"+randomColor;
     },500);
+
+    document.getElementById("searchtab").addEventListener("click",()=>{
+   document.getElementById("searchinput").style.display="block";
+  })
