@@ -24,6 +24,14 @@
     margin: 20px 0px;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+  }
+
+
 .logindiv a{
     color: black;
 }
@@ -157,7 +165,7 @@ i{
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
     text-align: center;
     padding-top: 15px;
-    position: relative;
+    position: static;
 }
 
 
@@ -283,7 +291,7 @@ footer{
     padding-left: 10%;
     padding-bottom: 5%;
     width: 70%;
-    height: 100%px;
+    height: 100px;
 }
 
 .aboutcompany .sociallogo{
